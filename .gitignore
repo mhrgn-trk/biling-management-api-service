@@ -1,0 +1,135 @@
+# =========================
+# OS / Editor files
+# =========================
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Dependencies
+# =========================
+
+node_modules/
+vendor/
+
+# =========================
+# Build / compiled files
+# =========================
+
+dist/
+build/
+out/
+target/
+bin/
+obj/
+
+# =========================
+# Temporary / cache files
+# =========================
+
+.tmp/
+temp/
+tmp/
+.cache/
+*.cache
+
+# =========================
+# Coverage
+# =========================
+
+coverage/
+.nyc_output/
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# =========================
+# Java
+# =========================
+
+*.class
+*.jar
+.gradle/
+.gradle-cache/
+build/
+
+# =========================
+# C / C++
+# =========================
+
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# =========================
+# Terraform
+# =========================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# =========================
+# Docker
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+# Database files
+# =========================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Test artifacts
+# =========================
+
+test-results/
+playwright-report/
